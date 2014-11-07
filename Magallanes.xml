@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<framework xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schemas/frameworkDescriptionVersion1.1.3.xsd" name="Magallanes" invoke="vendor/bin/mage" alias="mage" enabled="true" version="2">
+	<command>
+		<name>deploy to:</name>
+		<help><![CDATA[]]></help>
+		<params>[development]</params>
+	</command>
+	<command>
+		<name>releases list to:</name>
+		<help><![CDATA[]]></help>
+		<params>[development]</params>
+	</command>
+	<command>
+		<name>releases rollback</name>
+		<help><![CDATA[]]></help>
+		<params>to:[development]</params>
+		<optionsBefore>
+			<option name="--release=" shortcut="">
+				<help><![CDATA[]]></help>
+			</option>
+		</optionsBefore>
+	</command>
+</framework>
